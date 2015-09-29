@@ -33,7 +33,7 @@ module MagentoApiWrapper
         savon.strip_namespaces         true
         savon.pretty_print_xml         true
         savon.log                      log_env
-        savon.open_timeout             10    #seconds
+        savon.open_timeout             45    #seconds
         savon.read_timeout             45    #seconds
       end
     end
